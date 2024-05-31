@@ -10,6 +10,33 @@ div+div>p{
 div+h3+p{
     color:green;
 }
-div>h3{
+div>h3:first-child{
     color:pink;
+}
+caption{
+    color:blueviolet;
+}
+caption:hover{
+    color:red;
+}
+caption:active{
+    color:green;
+}
+tr>th:first-child{
+    color:rgb(18, 202, 45)
+}
+th{
+    color:blue
+}
+th:hover{
+    color:aqua
+}
+th:active{
+    color:green;
+}
+td{
+    color:brown;
+}
+td:hover{
+    color:aquamarine;
 }
