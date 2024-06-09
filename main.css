@@ -45,3 +45,24 @@ td:nth:nth-child(event){
 
     color:aquamarine;   
 }
+.item {
+    width: 100px;
+    height: 100px;
+    background-color:red;
+}
+.box {
+    display: flex;
+    gap: 20px;
+}
+.item:hover{
+    background-color: blueviolet;
+}
+.box :nth-child(even) {
+    background-color: gold;
+}
+.box :first-child {
+    background-color: blue;
+}
+.box :last-child {
+    background-color: aquamarine;
+}
