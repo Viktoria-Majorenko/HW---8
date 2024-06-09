@@ -25,7 +25,7 @@ caption:active{
 tr>th:first-child{
     color:rgb(18, 202, 45)
 }
-th{
+th>th:nth-child(n+2){
     color:blue
 }
 th:hover{
@@ -34,9 +34,14 @@ th:hover{
 th:active{
     color:green;
 }
-td{
-    color:brown;
+th:first-child() {
+    color:aliceblue
 }
-td:hover{
-    color:aquamarine;
+
+td:nth-child(n+2) {
+    color:purple;
+}
+td:nth:nth-child(event){
+
+    color:aquamarine;   
 }
